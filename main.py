@@ -284,35 +284,15 @@ def set_object_access_policy(bucket_name, object_key):
         return False
 
 
-file_url='https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg'
-bucket_name = 'fdfgfdgfdgdgdfgd'
-#object_key = 'ansible.cfg'
-version_id = 'htdAJhBSMSzHzeu2VcgxhCgOOIbDOKW2'
-permission = 'READ_PUBLIC'  #'PRIVATE'
-file_path = 'newfile.txt'
-object_key = 'file.png'
-data = 'new data'
-local_file_path = 'new.txt'
-
-#bucket_exists(bucket_name)
-#delete_bucket(bucket_name)
-#create_bucket(bucket_name)
-#delete_object(bucket_name, object_key)
-# if enable_versioning(bucket_name):
-#   print('versioning is on')
-# if disable_versioning(bucket_name):
-#   print("versioning is disabled")
-# if promote_version(bucket_name, object_key, version_id):
-#   print(f'version is chaged on {version_id}')
-#list_object_versions(bucket_name, object_key)
-# if grant_bucket_permissions(bucket_name, permission):
-#   print("bucket permission is granted")
-#list_objects(bucket_name)
-#upload_fileobj_from_path(bucket_name, object_key, file_path)
-#put_object(bucket_name, object_key, data)
-#download_file(bucket_name, object_key, local_file_path)
-#count_extensions_usage(bucket_name)
-#upload_file_from_url(bucket_name, object_key, file_url)
+# file_url='https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg'
+# bucket_name = 'fdfgfdgfdgdgdfgd'
+# object_key = 'ansible.cfg'
+# version_id = 'htdAJhBSMSzHzeu2VcgxhCgOOIbDOKW2'
+# permission = 'READ_PUBLIC'  #'PRIVATE'
+# file_path = 'newfile.txt'
+# object_key = 'file.png'
+# data = 'new data'
+# local_file_path = 'new.txt'
 
 parser = argparse.ArgumentParser(description="AWS S3 Utility")
 
